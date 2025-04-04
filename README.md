@@ -1,55 +1,34 @@
-# CMake and ImGui Project
+# Stock Market App
 
-This project is a simple template for using CMake with ImGui, a popular immediate mode GUI library. It provides a basic setup to get started with creating graphical applications using ImGui.
+## Project Summary
+The Stock Market App is a C++ application designed to provide real-time stock market data and analysis. It allows users to track stock prices, view historical data, and perform basic financial calculations.
 
-## Project Structure
-
-```
-cmake-imgui-project
-├── src
-│   ├── main.cpp          # Entry point of the application
-├── CMakeLists.txt       # CMake configuration file
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore file
-```
-
-## Requirements
-
-- CMake (version 3.10 or higher)
-- A C++ compiler that supports C++11 or higher
-- ImGui library
-
-## Building the Project
-
-1. Clone the repository:
+## How to Build
+1. Ensure you have a C++ compiler (e.g., `g++`) and CMake installed.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/stock-market-app.git
+   cd stock-market-app
    ```
-   git clone <repository-url>
-   cd cmake-imgui-project
-   ```
-
-2. Create a build directory:
-   ```
+3. Create a build directory and compile the project:
+   ```bash
    mkdir build
    cd build
-   ```
-
-3. Run CMake to configure the project:
-   ```
    cmake ..
+   make
    ```
 
-4. Build the project:
+## How to Run
+1. After building, run the executable:
+   ```bash
+   ./stock-market-app
    ```
-   cmake --build .
-   ```
+2. Follow the on-screen instructions to interact with the application.
 
-## Running the Application
-
-After building the project, you can run the application from the build directory:
-```
-./cmake-imgui-project
-```
+## Requirements
+- C++23 or later
+- CMake 3.20 or higher
+- Internet connection for real-time data (if applicable)
 
 ## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
