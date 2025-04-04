@@ -1,3 +1,0 @@
-/mnt/c/workspace/cpp/stock-market-app/build/CMakeFiles/stock-market-app.dir
-/mnt/c/workspace/cpp/stock-market-app/build/CMakeFiles/edit_cache.dir
-/mnt/c/workspace/cpp/stock-market-app/build/CMakeFiles/rebuild_cache.dir

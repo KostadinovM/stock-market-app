@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/cmake-imgui-project.dir/src/main.cpp.o -o cmake-imgui-project  -limgui 
